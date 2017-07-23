@@ -1,0 +1,21 @@
+﻿using System.Collections.Generic;
+using System.Linq;
+
+namespace Outsurance
+{
+    public class Person
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Address { get; set; }
+        public string PhoneNumber { get; set; }
+
+        public Person()
+        {
+            FirstName = string.Empty;
+            LastName = string.Empty;
+            Address = string.Empty;
+            PhoneNumber = string.Empty;
+        }
+    }
+}
